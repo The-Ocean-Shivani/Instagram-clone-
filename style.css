@@ -1,0 +1,42 @@
+:root {
+    --white: #f5f5f5;
+    --black: #000;
+    --grey: #262626;
+    --light-grey: #a8a8a8;
+    --blue: #0095f6;
+}
+
+body {
+    scroll-behavior: smooth;
+    background-color: #000;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+        Arial, sans-serif;
+    color: #fff;
+    overflow-x: hidden;
+    display: flex;
+    width: 100vw;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-right: 1px solid var(--grey);
+  }
+  
+
+  .sidebar .top-section .logo {
+    /* Define your logo properties here */
+    width: 90px;
+    margin-bottom: 1rem;
+  }
+  
+  /* .logo2 {
+    display: none;
+  }
+   */
